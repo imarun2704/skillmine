@@ -1,0 +1,27 @@
+.header-bar{
+    background-color: rgb(15, 1, 1);
+    width:100%;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:4rem;
+}
+.header-cart-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 3rem;
+}
+.cart-data-length{
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    left: 45px;
+    bottom: 27px;
+}
+.user-profile{
+    padding-left:2rem;
+}

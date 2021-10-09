@@ -1,0 +1,132 @@
+.product-page{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 800px;
+    padding-bottom: 5rem;
+}
+.loader-products-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 25%;
+}
+.search-bar{
+    outline:none;
+    width: 30%;
+    border:none;
+    border-radius:10px;
+    height:30px;
+    margin-top: 1.5rem;
+    padding-left: 15px;
+}
+.filter-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.active-btn{
+    border: 1px solid black;
+    width:150px;
+    background-color:rgb(12, 8, 8);
+    cursor: pointer;
+    color:#FFFFFF;
+    outline: none;
+    height: 25px;
+    border-radius:12px;
+    margin-left: 1rem;
+}
+.filter-btn{
+    border: 1px solid black;
+    width:150px;
+    background-color:white;
+    cursor: pointer;
+    color:black;
+    outline: none;
+    height: 25px;
+    border-radius:12px;
+    margin-left: 1rem;
+}
+.cards-section{
+    margin-top: 2rem;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 100%;
+    margin: 1rem auto;
+}
+.product-title{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem 0.4rem;
+    height: 80px;
+}
+.product-img-price-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-image{
+    height: 100px;
+    width: 100px;
+}
+.title-string{
+    font-size:13px;
+    font-weight:bold;
+}
+.product-price{
+    font-size: 18px;
+    font-weight:bold;
+    color:rgb(253, 56, 56)
+}
+.product-rating{
+    font-size: 16px;
+    font-weight: bold;
+    color: gold;
+}
+.product-description{
+    font-size: 12px;
+    padding: 0.2rem 0.4rem;
+    height: 60px;
+}
+.product-description-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+.button-div{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 10px;
+}
+.button{
+    border: 1px solid black;
+    background-color:#FFFFFF;
+    color:rgb(253, 56, 56);
+    font-weight: bold;
+    outline: none;
+    border-radius: 12px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+.filter-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.filter-btn{
+    margin-top: 1rem;
+    width: 250px;
+}
+.active-btn{
+    margin-top: 1rem;
+    width: 250px;
+}
+}
+

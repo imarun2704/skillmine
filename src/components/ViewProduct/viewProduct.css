@@ -1,0 +1,19 @@
+.title{
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+}
+@media only screen and (max-width: 768px){
+    .button-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-description{
+        height: 100px;
+    }
+    .button{
+        margin-top: 10px;
+    }
+}
